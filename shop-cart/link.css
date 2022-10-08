@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section.selecting-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E90FF;
+    height: 800px;
+}
+.item {
+    width: 250px;
+    height: 300px;
+    background: #fefefe;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 30px 0px;
+}
+button, input{
+    padding: 5px;
+    background: black;
+    color: #fefefecc;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
